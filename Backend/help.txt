@@ -1,0 +1,30 @@
+employee-->
+add,update,delete,get all list,serch by id
+
+Admin
+add,delete,update,
+
+Asset 
+add,delete,update,get all,
+
+Category
+add,delete,update,
+
+allocation
+add,update,
+
+
+document
+add,delete
+
+
+// const parentCategoryPromises = response.data
+        //   .filter(category => category.ParentCategoryId !== null)
+        //   .map(async category => {
+        //     const parentCategory = await getParentCategory(category.ParentCategoryId);
+        //     return { categoryId: category.CategoryId, parentCategoryName: parentCategory[0]?.Name || '' };
+        //   });
+
+        // const parentCategoryData = await Promise.all(parentCategoryPromises);
+        // const parentCategoryNamesObj = Object.fromEntries(parentCategoryData.map(({ categoryId, parentCategoryName }) => [categoryId, parentCategoryName]));
+        // setParentCategoryNames(parentCategoryNamesObj);
